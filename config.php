@@ -1,1 +1,1 @@
-<?php	$conn=mysqli_connect('localhost','root','','it_inventory'); ?>
+<?php	$conn=mysqli_connect('localhost','root','','it_servicedesk'); ?>
