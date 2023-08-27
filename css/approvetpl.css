@@ -1,0 +1,192 @@
+﻿h3 { font-size: 13px !important; }
+#box-table-a td {
+	padding: 8px;
+	background: none; 
+	border-top: 1px solid #CCC;
+	color: #666;
+	border-bottom: none !important;
+}
+form label { display:block !important; line-height:normal !important; margin: 5px 0px;  font-size:12px;	font-weight:bold; }
+input[type=text] { display:block !important; }
+textarea { display:block; }
+.smallInput { padding:3px 3px; border:1px solid #999; background:#FFFFE6; font-size:12px !important; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif !important; color: #333 !important; font-style:italic; }
+.largeInput { padding:6px 5px; border:1px solid #999; background:#FFFFE6; font-size:15px !important; font-family:"Trebuchet MS", Arial, Helvetica, sans-serif !important; color: #333 !important; }
+form .small { width:150px; }
+form .medium { width:350px; }
+form .wide { width:890px; }
+.button {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('../images/but_right_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 29px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button span {
+  background: url('../images/but_left_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 29px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.button:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.button_grey {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('../images/but_right_grey.gif') no-repeat scroll top right;
+  color: #555;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;	
+}
+.button_grey span {
+  background: url('../images/but_left_grey.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.button_grey:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button_grey:hover span {
+  background-position: left bottom;
+  color: #333;
+}
+.button_ok {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('../images/but_round_span_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 15px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button_ok span {
+  background: url('../images/but_round_ok_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 35px;
+  outline: none !important;
+  float:left;
+}
+.button_ok:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button_ok:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.button_notok {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('../images/but_round_span_blue.gif') no-repeat scroll top right;
+  color: #1b486a;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 15px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+.button_notok span {
+  background: url('../images/but_round_del_blue.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 35px;
+  outline: none !important;
+  float:left;
+  font-style: italic;
+}
+.button_notok:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button_notok:hover span {
+  background-position: left bottom;
+  color: #1b486a;
+}
+.button_grey_round {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  background: transparent url('../images/but_round_span_grey.gif') no-repeat scroll top right;
+  color: #555;
+  display: block;
+  float: left;
+  height: 30px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;	
+}
+.button_grey_round span {
+  background: url('../images/but_round_left_grey.gif') no-repeat left top;
+  display: block;
+  line-height: 30px;
+  padding: 0px 0px 0px 12px;
+  outline: none !important;
+  float:left;
+}
+.button_grey_round:hover {
+  background-position: right bottom;
+  text-decoration:none !important
+}
+.button_grey_round:hover span {
+  background-position: left bottom;
+  color: #333;
+}
